@@ -1,10 +1,10 @@
-package com.android.pruebaAndroid2;
+package com.pruebaAndroid2.MiHorario;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PruebaAndroid2ApplicationTests {
+class MiHorarioApplicationTests {
 
 	@Test
 	void contextLoads() {

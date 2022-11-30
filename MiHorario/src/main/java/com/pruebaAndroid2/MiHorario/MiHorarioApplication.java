@@ -1,13 +1,13 @@
-package com.android.pruebaAndroid2;
+package com.pruebaAndroid2.MiHorario;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PruebaAndroid2Application {
+public class MiHorarioApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PruebaAndroid2Application.class, args);
+		SpringApplication.run(MiHorarioApplication.class, args);
 	}
 
 }
