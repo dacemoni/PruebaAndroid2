@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.AltaEventos">
+    tools:context="com.pruebaAndroid2.eventos.activities.AltaEventos">
 
     <EditText
         android:id="@+id/etNombre"
@@ -25,8 +25,8 @@
         android:id="@+id/etDescripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:hint="@string/lb_descripcion"
         android:inputType="textPersonName"
@@ -95,7 +95,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/lb_alta"
+        android:text="@string/guardar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btCancelar"
         app:layout_constraintStart_toStartOf="parent" />
